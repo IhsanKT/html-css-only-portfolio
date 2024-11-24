@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ihsan Afroz KT - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+      <img src="my.jpg" alt="Ihsan Afroz KT" class="profile-pic">
+
+        <div class="container">
+            <h1>Ihsan Afroz KT</h1>
+            <p>B. Tech Chemical Engineering, IIT Madras</p>
+            <p>Email: <a href="mailto:ch23b086@smail.iitm.ac.in">ch23b086@smail.iitm.ac.in</a> | Phone: 8075671324</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Currently pursuing B. Tech in Chemical Engineering at IIT Madras, I am passionate about programming, web development, and machine learning. I have hands-on experience in creating impactful projects and contributing to social initiatives.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>B. Tech:</strong> Chemical Engineering, IIT Madras (CGPA: 7.75, Expected: 2027)</li>
+                <li><strong>Class XII:</strong> PTMHSS Vellila (100%, 2023)</li>
+                <li><strong>Class X:</strong> IUHSS Parappur (100%, 2021)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming: Python, Java, C</li>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Machine Learning: Scikit-learn, TensorFlow, Keras, PyTorch</li>
+                <li>Data Science: Pandas, NumPy, Matplotlib</li>
+                <li>Tools: Git, Jupyter Notebooks, Blender, Fusion 360</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Kerala state first in the higher secondary level maths quiz (2022)</li>
+                <li>NTSE Scholar (2020, among the top 2,000 students nationwide)</li>
+                <li>Qualified JEE-Advanced and JEE-Main (2023)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Iris Classification:</strong> Logistic regression model achieving 95% accuracy. <a href="https://github.com/IhsanKT/iris_flower_classification" target="_blank">GitHub</a></li>
+                <li><strong>Digit Classification:</strong> Neural network for MNIST dataset. <a href="https://github.com/IhsanKT/Handwritten_number_classification" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:ch23b086@smail.iitm.ac.in">ch23b086@smail.iitm.ac.in</a></p>
+            <p>GitHub: <a href="https://github.com/IhsanKT" target="_blank">https://github.com/IhsanKT</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ihsan Afroz KT. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <button class="scroll-top">↑</button>
+    <script>
+      // Scroll to top button
+      const scrollBtn = document.querySelector('.scroll-top');
+      window.addEventListener('scroll', () => {
+          if (window.pageYOffset > 100) {
+              scrollBtn.classList.add('visible');
+          } else {
+              scrollBtn.classList.remove('visible');
+          }
+      });
+      scrollBtn.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+  </script>
+</body>
+</html>
